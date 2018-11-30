@@ -1,0 +1,18 @@
+<apex:page standardController="Session__c">
+<apex:form >
+<apex:pageBlock Title="Accountdeatils" >
+<apex:pageBlockButtons >
+<apex:commandButton Value="Save" action="{!Save}"/>
+<apex:commandButton value="New & Save" action="{!Quicksave}"/>
+</apex:pageBlockButtons>
+<apex:pageBlockSection columns="1">
+<apex:pageBlockSectionItem >
+<apex:outputLabel >Name
+<apex:inputtext />
+</apex:outputLabel>
+</apex:pageBlockSectionItem>
+
+</apex:pageBlockSection>
+</apex:pageBlock>
+ </apex:form>
+</apex:page>

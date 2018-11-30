@@ -1,0 +1,5 @@
+<apex:page >
+  <apex:pageBlock >Page1</apex:pageBlock>
+  <apex:pageBlock >Page2</apex:pageBlock> 
+   <apex:pageBlock >Page3</apex:pageBlock>
+</apex:page>
